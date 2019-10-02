@@ -107,11 +107,6 @@ namespace Focos
             ClickDerechoTextbox.Background = Brushes.White;
         }
 
-        private void Window_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-        }
-
         private void Textbox1_MouseEnter(object sender, MouseEventArgs e)
         {
             RatonSobreTextbox.Text = ((TextBox)sender).Name;
