@@ -36,7 +36,7 @@ namespace Focos
 
         private void Textbox1_GotFocus(object sender, RoutedEventArgs e)
         {
-            FocoTextbox.Text = "TextBox 1";
+            FocoTextbox.Text = ((TextBox)sender).Name;
         }
         
 
@@ -50,7 +50,7 @@ namespace Focos
 
         private void Textbox2_GotFocus(object sender, RoutedEventArgs e)
         {
-            FocoTextbox.Text = "TextBox 2";
+            FocoTextbox.Text = ((TextBox)sender).Name;
         }
 
 
@@ -84,7 +84,7 @@ namespace Focos
 
         private void Textbox3_GotFocus(object sender, RoutedEventArgs e)
         {
-            FocoTextbox.Text = "TextBox 3";
+            FocoTextbox.Text = ((TextBox)sender).Name;
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
